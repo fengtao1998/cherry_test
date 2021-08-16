@@ -70,7 +70,7 @@ This change added tests and can be verified as follows:
 
 #### For contributor
 
-For this PR, do we need to update docs?
+For this PR, do we need to update docs? (yes / no)
 
 - If yes, please update docs or create a follow-up issue if you need help.
   
@@ -78,7 +78,7 @@ For this PR, do we need to update docs?
 
 #### For committer
 
-For this PR, do we need to update docs?
+For this PR, do we need to update docs? (yes / no)
 
 - If yes,
   
@@ -89,4 +89,4 @@ For this PR, do we need to update docs?
   - if you need help on updating docs, create a follow-up issue with the `doc-required` label.
   
 - If no, label this PR with the `no-need-doc` label and explain why.
-
+(doc/doc-required/doc-required/no-need-doc)
