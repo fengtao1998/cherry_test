@@ -90,4 +90,4 @@ For this PR, do we need to update docs? (yes / no)
   
 - If no, label this PR with the `no-need-doc` label and explain why.
   
-label:doc/doc-required/no-need-doc
+label: doc/doc-required/no-need-doc.
