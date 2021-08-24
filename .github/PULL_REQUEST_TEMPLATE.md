@@ -67,27 +67,10 @@ This change added tests and can be verified as follows:
   - Anything that affects deployment: (yes / no / don't know)
 
 ### Documentation
-
-#### For contributor
-
-For this PR, do we need to update docs? (yes / no)
-
-- If yes, please update docs or create a follow-up issue if you need help.
   
-- If no, please explain why.
 
-#### For committer
+Need to update docs? Check the box below:
+- [ ] doc-required (if the answer is yes)
+- [ ] no-need-doc (if the answer is no)
+- [ ] doc (if this PR contains only doc changes)
 
-For this PR, do we need to update docs? (yes / no)
-
-- If yes,
-  
-  - if you update docs in this PR, label this PR with the `doc` label.
-  
-  - if you plan to update docs later, label this PR with the `doc-required` label.
-
-  - if you need help on updating docs, create a follow-up issue with the `doc-required` label.
-  
-- If no, label this PR with the `no-need-doc` label and explain why.
-  
-label: doc/doc-required/no-need-doc.
