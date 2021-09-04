@@ -1,0 +1,4 @@
+uses: github-actions-up-and-running/pr-comment@v1.0.0
+with:
+  repo-token: ${{ secrets.token }}
+  message: Nice PR!👍
