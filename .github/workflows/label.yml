@@ -30,5 +30,5 @@ jobs:
 
       - uses: harupy/auto-labeling@master
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.token }}
           label-pattern: '- \[(.*?)\] ?`(.+?)`' # matches '- [x] `label`'
