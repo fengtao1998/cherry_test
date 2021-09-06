@@ -1,7 +1,6 @@
 on:
-  issues:
-    types: [opened, edited]
-
+  pull_request:
+    types: [opened,edited]
 jobs:
   required_labels:
     runs-on: ubuntu-latest
@@ -10,5 +9,5 @@ jobs:
       - name: Required Labels
         uses: pr-bot-test/required-labels@master
         with:
-          labels: "Todo, Bug"
+          labels: "doc-required, no-need-doc, doc"
           GITHUB_TOKEN: ${{ secrets.token }}
