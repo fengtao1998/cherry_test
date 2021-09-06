@@ -1,0 +1,14 @@
+on:
+  issues:
+    types: [opened, edited]
+
+jobs:
+  required_labels:
+    runs-on: ubuntu-latest
+    name: Required Labels
+    steps:
+      - name: Required Labels
+        uses: pr-bot-test/required-labels@master
+        with:
+          labels: "Todo, Bug"
+          GITHUB_TOKEN: ${{ secrets.token }}
