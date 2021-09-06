@@ -1,5 +1,5 @@
 on:
-  pull_request:
+  issues:
     types: [opened,edited]
 jobs:
   required_labels:
