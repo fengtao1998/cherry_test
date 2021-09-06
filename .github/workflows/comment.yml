@@ -1,13 +1,1 @@
-on:
-  issues:
-    types: [opened,edited]
-jobs:
-  required_labels:
-    runs-on: ubuntu-latest
-    name: Required Labels
-    steps:
-      - name: Required Labels
-        uses: pr-bot-test/required-labels@v2.0
-        with:
-          labels: "doc-required, no-need-doc, doc"
-          GITHUB_TOKEN: ${{ secrets.token }}
+
