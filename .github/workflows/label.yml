@@ -29,3 +29,13 @@ jobs:
         with:
           github-token: ${{ secrets.token }}
           label-pattern: '- \[(.*?)\] ?`(.+?)`' # matches '- [x] `label`'
+  required_labels:
+    runs-on: ubuntu-latest
+    name: Required Labels
+    needs: labeling
+    steps:
+      - name: Required Labels
+        uses: pr-bot-test/required-labels@master
+        with:
+          labels: "doc-required, no-need-doc, doc"
+          GITHUB_TOKEN: ${{ secrets.token }}
