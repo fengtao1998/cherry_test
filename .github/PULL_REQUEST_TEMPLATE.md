@@ -70,7 +70,7 @@ This change added tests and can be verified as follows:
   
 
 Need to update docs? Check the box below:
-- [ ] doc-required (if the answer is yes)
-- [ ] no-need-doc (if the answer is no)
-- [ ] doc (if this PR contains only doc changes)
+- [ ] `doc-required` (if the answer is yes)
+- [ ] `no-need-doc` (if the answer is no)
+- [ ] `doc` (if this PR contains only doc changes)
 
