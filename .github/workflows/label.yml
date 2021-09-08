@@ -11,6 +11,9 @@ on:
     types:
       - opened
       - edited
+      - labeled
+
+  
 
 # A GitHub token created for a PR coming from a fork doesn't have
 # 'admin' or 'write' permission (which is required to add labels)
