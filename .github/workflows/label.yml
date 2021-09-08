@@ -31,6 +31,7 @@ jobs:
     name: Required Labels
     needs: labeling
     steps:
+      - uses: actions/checkout@v2    
       - name: Required Labels
         uses: pr-bot-test/required-labels@master
         with:
