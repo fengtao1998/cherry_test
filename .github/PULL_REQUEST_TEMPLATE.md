@@ -67,10 +67,21 @@ This change added tests and can be verified as follows:
   - Anything that affects deployment: (yes / no / don't know)
 
 ### Documentation
-  
 
-Need to update docs? Check the box below:
-- [ ] `doc-required` (if the answer is yes)
-- [ ] `no-need-doc` (if the answer is no)
-- [ ] `doc` (if this PR contains only doc changes)
+Check the box below and label this PR (if you have committer privilege).
+
+Need to update docs? 
+
+- [ ] `doc-required` 
+  
+  (If you need help on updating docs, create a doc issue)
+  
+- [ ] `no-need-doc` 
+  
+  (Please explain why)
+  
+- [ ] `doc` 
+  
+  (If this PR contains doc changes)
+
 
