@@ -1,6 +1,9 @@
 name: Auto Labeling
-
 on:
+  issues:
+    types:
+     - opened
+     - edited
   pull_request:
     types:
       - opened
@@ -19,7 +22,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - uses: pr-bot-test/auto-labeling@master
+      - uses: pr-bot-test/auto-labeling/dist@master
         with:
           github-token: ${{ secrets.token }}
           label-pattern: '- \[(.*?)\] ?`(.+?)`' # matches '- [x] `label`'
