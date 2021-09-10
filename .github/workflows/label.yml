@@ -22,7 +22,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - uses: pr-bot-test/auto-labeling/dist@master
+      - uses: fengtao1998/auto-labeling@master
         with:
           github-token: ${{ secrets.token }}
           label-pattern: '- \[(.*?)\] ?`(.+?)`' # matches '- [x] `label`'
