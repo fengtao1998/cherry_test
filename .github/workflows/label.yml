@@ -26,3 +26,4 @@ jobs:
         with:
           github-token: ${{ secrets.token }}
           label-pattern: '- \[(.*?)\] ?`(.+?)`' # matches '- [x] `label`'
+          bot-name: 'pr-bot-test'
