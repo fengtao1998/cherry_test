@@ -21,7 +21,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - uses: apache/pulsar-test-infra/doc-label-check@master
+      - uses: pr-bot-test/auto-labeling@master
         with :
           github-token: ${{    secrets.pr     }}
           label-pattern: '- \[(.*?)\] ?`(.+?)`' # matches '- [x] `label`'
