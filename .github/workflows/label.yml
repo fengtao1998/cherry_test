@@ -23,7 +23,7 @@ jobs:
 
       - uses: pr-bot-test/auto-labeling@master
         with :
-          github-token: ${{ secrets.DOCBOT_TOKEN }}
-          #github-token1: ${{ secrets.comment }}
+          github-token: ${{  secrets.GITHUB_TOKEN }}
+          #github-token1: ${{  secrets.GITHUB_TOKEN }}
           label-pattern: '- \[(.*?)\] ?`(.+?)`' # matches '- [x] `label`'
           bot-name: 'pr-bot-test'
