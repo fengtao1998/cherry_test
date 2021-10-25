@@ -26,7 +26,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - uses: pulsar-test-infra/doc-label-check@master
+      - uses: apache/pulsar-test-infra/doc-label-check@master
         with :
           github-token: ${{  secrets.DOCBOT_TOKEN}}
           #github-token1: ${{  secrets.GITHUB_TOKEN }}
