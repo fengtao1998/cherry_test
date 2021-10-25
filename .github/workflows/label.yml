@@ -28,7 +28,7 @@ jobs:
 
       - uses: pulsar-test-infra/doc-label-check@master
         with :
-          github-token: ${{  secrets.PR}}
+          github-token: ${{  secrets.DOCBOT_TOKEN}}
           #github-token1: ${{  secrets.GITHUB_TOKEN }}
           label-pattern: '- \[(.*?)\] ?`(.+?)`' # matches '- [x] `label`'
           bot-name: 'pr-bot-test'
