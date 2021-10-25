@@ -17,6 +17,11 @@ on:
 
 jobs:
   labeling:
+    permissions:
+      contents: write
+      pull-requests: write 
+      issues: read
+      packages: none
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
