@@ -1,7 +1,7 @@
 name: Auto Labeling
 
 on:
-  pull_request_target:
+  pull_request_target :
     types:
       - opened
       - edited
@@ -22,10 +22,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      
 
-      - uses: pr-bot-test/auto-labeling@master
-        with :
-          github-token: ${{  secrets.GITHUB_TOKEN}}
-          #github-token1: ${{  secrets.GITHUB_TOKEN }}
+      - uses: apache/pulsar-test-infra/doc-label-check@master
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           label-pattern: '- \[(.*?)\] ?`(.+?)`' # matches '- [x] `label`'
